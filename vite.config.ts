@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/speech-to-text/',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Live Subtitling Application</h1>
+    <h1>Live Subtitling Application auto deployed</h1>
     <SubtitlesDisplay :recognizedText="text" :bot="10" />
   </div>
 </template>
